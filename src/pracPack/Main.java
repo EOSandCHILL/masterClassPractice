@@ -2,6 +2,14 @@ package pracPack;
 
 public class Main {
     public static void main(String[] args) {
+        Headers management = new ManagementHeader();
+        management.header();
+        ProjectManager projectManager = new ProjectManager();
+        projectManager.employeeName();
+        AccountManager accountManager = new AccountManager();
+        accountManager.employeeName();
+        SoftwareManager softwareManager = new SoftwareManager();
+        softwareManager.employeeName();
         Headers frontendTeam = new FrontEndTeamHeader();
         frontendTeam.header();
         UIUXDesigners uiuxDesigners = new UIUXDesigners();
@@ -12,6 +20,8 @@ public class Main {
         backendTeam.header();
         BackEndEngineer backEndEngineers = new BackEndEngineer();
         backEndEngineers.employeeName();
+        APIDeveloper apiDeveloper = new APIDeveloper();
+        apiDeveloper.employeeName();
         DataEngineer dataEngineers = new DataEngineer();
         dataEngineers.employeeName();
         Headers devopsTeam = new DevOpsTeamHeader();

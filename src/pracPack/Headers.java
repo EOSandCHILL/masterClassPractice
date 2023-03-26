@@ -42,3 +42,16 @@ class DevOpsTeamHeader implements Headers {
         );
     }
 }
+
+class ManagementHeader implements Headers {
+    @Override
+    public void header() {
+        System.out.println(
+                "----------------------------"
+        );
+        System.out.println("      Management Team");
+        System.out.println(
+                "----------------------------"
+        );
+    }
+}

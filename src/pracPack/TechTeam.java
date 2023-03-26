@@ -46,6 +46,18 @@ class BackEndEngineer implements TechTeam {
     }
 }
 
+class APIDeveloper implements TechTeam {
+    @Override
+    public void employeeName() {
+        ArrayList names = new ArrayList();
+        names.add("Jamie");
+        names.add("Becca");
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println("API Developer: " + names.get(i));
+        }
+    }
+}
+
 class DataEngineer implements TechTeam {
     @Override
     public void employeeName() {
@@ -90,6 +102,44 @@ class CloudArchitect implements TechTeam {
         names.add("Cindy");
         for (int i = 0; i < names.size(); i++) {
             System.out.println("Cloud Architect: " + names.get(i));
+        }
+    }
+}
+
+class ProjectManager implements TechTeam {
+    @Override
+    public void employeeName() {
+        ArrayList names = new ArrayList();
+        names.add("Marcus");
+        names.add("Jacob");
+        names.add("Cheryl");
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println("Project Manager: " + names.get(i));
+        }
+    }
+}
+
+class AccountManager implements TechTeam {
+    @Override
+    public void employeeName() {
+        ArrayList names = new ArrayList();
+        names.add("Jill");
+        names.add("Samantha");
+        names.add("Sarah");
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println("Account Manager: " + names.get(i));
+        }
+    }
+}
+
+class SoftwareManager implements TechTeam {
+    @Override
+    public void employeeName() {
+        ArrayList names = new ArrayList();
+        names.add("Jerry");
+        names.add("Mack");
+        for (int i = 0; i < names.size(); i++) {
+            System.out.println("Software Manager: " + names.get(i));
         }
     }
 }
